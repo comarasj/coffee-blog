@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://comarasj.github.io/comarasj",
+  "homepage": "https://comarasj.github.io/my-app",
   "dependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
