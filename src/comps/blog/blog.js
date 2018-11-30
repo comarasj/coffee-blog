@@ -4,7 +4,7 @@ import './blog.css';
 class Blog extends Component {
     render() {
         return (
-            <div className="App">
+            <div className="blog">
                 blog posts
             </div>
         )
