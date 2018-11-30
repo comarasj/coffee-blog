@@ -1,29 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { HashRouter, Route } from 'react-router-dom';
+import NavBar from './utils/navbar';
+import Home from './comps/home/home';
+import Blog from './comps/blog/blog';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Steve Comarata's web app.
-          </p>
-          <p>
-            Work in Progress.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <HashRouter>
+        <div>
+          <NavBar />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/blog" component={Blog} />
+        </div>
+      </HashRouter>
     );
   }
 }

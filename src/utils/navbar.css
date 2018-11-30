@@ -1,0 +1,11 @@
+.topbar{
+    background-color: #282c3F;
+    font-size: calc(6px + 2vmin);
+    color: white;
+
+}
+
+.links{
+   padding: 10px;
+   padding-bottom: 10px;
+}
