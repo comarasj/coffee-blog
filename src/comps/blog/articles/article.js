@@ -1,43 +1,44 @@
 import React, { Component } from 'react';
-//import my_list_of_articles from "./articlelist";
+import { Link } from 'react-router-dom';
 import "./article.css"
 
-class Article extends Component{
+class Article extends Component {
     constructor() {
         super();
-        this.state ={
+        this.state = {
             data: {
-                "name": "Sample",
+                "title": "Sample",
                 "date": "11/30/2018",
                 "body": "sample here"
-            }
+            },
+            expanded: false
         }
     }
 
-    componentDidMount(){
-        //console.log(my_list_of_articles)
+    componentDidMount() {
         this.gatherArticles();
-        
     }
 
-    gatherArticles(){
+    gatherArticles() {
         var data;
-        for (var i=0; i < this.props.article_count; i++){
-            if (my_list_of_articles["articles"][i]["number"] === this.props.article_number){
+        for (var i = 0; i < this.props.article_count; i++) {
+            if (my_list_of_articles["articles"][i]["number"] === this.props.article_number) {
                 data = my_list_of_articles["articles"][i]
             }
         }
-        //const data = my_list_of_articles["articles"];
-        this.setState({data: data})
+        this.setState({ data: data })
     }
 
-    render(){
+    render() {
         const title = this.state.data["title"];
         const date = this.state.data["date"];
-        return(
+        const body = this.state.data["body"];
+
+        return (
             <div className="article-tile">
                 <h1>{title}</h1>
-                <h2>{date}</h2>
+                <p>{date}</p>
+                <Link to={"/blog/Article/" + this.props.article_number}>Expand</Link>
             </div>
         )
     }
