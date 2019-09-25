@@ -1,14 +1,14 @@
 {
-  "main.css": "/my-app/static/css/main.f2d27eee.chunk.css",
-  "main.js": "/my-app/static/js/main.5240b333.chunk.js",
-  "main.js.map": "/my-app/static/js/main.5240b333.chunk.js.map",
-  "static/js/1.d7387733.chunk.js": "/my-app/static/js/1.d7387733.chunk.js",
-  "static/js/1.d7387733.chunk.js.map": "/my-app/static/js/1.d7387733.chunk.js.map",
-  "runtime~main.js": "/my-app/static/js/runtime~main.a3bd857c.js",
-  "runtime~main.js.map": "/my-app/static/js/runtime~main.a3bd857c.js.map",
-  "static/media/logo.svg": "/my-app/static/media/logo.ee7cd8ed.svg",
-  "static/css/main.f2d27eee.chunk.css.map": "/my-app/static/css/main.f2d27eee.chunk.css.map",
-  "index.html": "/my-app/index.html",
-  "precache-manifest.cb2801ca96152d9943692c93c3bcf84c.js": "/my-app/precache-manifest.cb2801ca96152d9943692c93c3bcf84c.js",
-  "service-worker.js": "/my-app/service-worker.js"
+  "main.css": "/coffee-blog/static/css/main.5a408639.chunk.css",
+  "main.js": "/coffee-blog/static/js/main.518a8432.chunk.js",
+  "main.js.map": "/coffee-blog/static/js/main.518a8432.chunk.js.map",
+  "static/js/1.d7387733.chunk.js": "/coffee-blog/static/js/1.d7387733.chunk.js",
+  "static/js/1.d7387733.chunk.js.map": "/coffee-blog/static/js/1.d7387733.chunk.js.map",
+  "runtime~main.js": "/coffee-blog/static/js/runtime~main.edcc1237.js",
+  "runtime~main.js.map": "/coffee-blog/static/js/runtime~main.edcc1237.js.map",
+  "static/media/logo.svg": "/coffee-blog/static/media/logo.ee7cd8ed.svg",
+  "static/css/main.5a408639.chunk.css.map": "/coffee-blog/static/css/main.5a408639.chunk.css.map",
+  "index.html": "/coffee-blog/index.html",
+  "precache-manifest.7e526a18049f43d2980cccde53460edb.js": "/coffee-blog/precache-manifest.7e526a18049f43d2980cccde53460edb.js",
+  "service-worker.js": "/coffee-blog/service-worker.js"
 }
