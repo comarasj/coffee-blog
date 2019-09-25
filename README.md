@@ -1,4 +1,4 @@
-# my-app
+# Coffee Blog
 To deploy:
 ```
 cd my-app
