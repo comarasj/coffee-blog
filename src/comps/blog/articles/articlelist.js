@@ -1,4 +1,4 @@
-const my_list_of_articles = {
+export default {
     "articles": [
         {
             "number": 0,

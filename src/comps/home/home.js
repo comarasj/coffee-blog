@@ -9,7 +9,7 @@ class Home extends Component {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <p>
-                        Steve Comarata's web app.
+                        web app.
                     </p>
                     <p>
                         Work in Progress.

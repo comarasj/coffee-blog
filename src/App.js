@@ -4,7 +4,6 @@ import { HashRouter, Route } from 'react-router-dom';
 import NavBar from './utils/navbar';
 import Home from './comps/home/home';
 import Blog from './comps/blog/blog';
-import Aboutme from './comps/aboutme/aboutme';
 
 class App extends Component {
   render() {
