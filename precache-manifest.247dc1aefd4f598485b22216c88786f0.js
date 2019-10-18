@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/coffee-blog/static/js/runtime~main.edcc1237.js"
   },
   {
-    "revision": "6f267d5c3ae6be394f4c",
-    "url": "/coffee-blog/static/js/main.6f267d5c.chunk.js"
+    "revision": "ee4d9b56ba3bf84c6403",
+    "url": "/coffee-blog/static/js/main.ee4d9b56.chunk.js"
   },
   {
-    "revision": "e71b35a2b9a0754eda06",
-    "url": "/coffee-blog/static/js/1.e71b35a2.chunk.js"
+    "revision": "9b3bc872e769bc5dcb05",
+    "url": "/coffee-blog/static/js/1.9b3bc872.chunk.js"
   },
   {
-    "revision": "6f267d5c3ae6be394f4c",
-    "url": "/coffee-blog/static/css/main.84829614.chunk.css"
+    "revision": "ee4d9b56ba3bf84c6403",
+    "url": "/coffee-blog/static/css/main.bafd888c.chunk.css"
   },
   {
-    "revision": "71a4b6abc8d995e9051391cbcc98e267",
+    "revision": "646b118097621222d58e21b2fb088be9",
     "url": "/coffee-blog/index.html"
   }
 ];
