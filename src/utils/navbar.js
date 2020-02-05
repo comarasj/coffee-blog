@@ -6,7 +6,7 @@ class NavBar extends Component {
         return (
             <nav>
                 <div className="topbar">
-                    <NavLink to="/home" className="links" activeStyle={{
+                    <NavLink exact to="/" className="links" activeStyle={{
                         textDecoration: "underline",
                         color: "whitesmoke"
                     }}>Home</NavLink>

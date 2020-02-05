@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class ArticleTile extends Component {
-    
-    state ={
+
+    state = {
         title: null,
         link: null,
         date: null
@@ -15,13 +15,15 @@ class ArticleTile extends Component {
         const date = this.props.date;
         this.setState(() => ({ title, link, date }))
     }
-   
+
 
     render() {
-        return(
-            <Link to={this.props.link} className="link-box">
-                {this.state.title}
-            </Link>
+        return (
+            <div className="articleTile">
+                <Link to={this.props.link} className="link-box">
+                    {this.state.title}
+                </Link>
+            </div>
         )
     }
 }

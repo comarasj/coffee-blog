@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter, Route, withRouter } from 'react-router-dom';
 import NavBar from './utils/navbar';
 import Home from './comps/home/home';
 import Blog from './comps/blog/blog';
@@ -14,10 +14,9 @@ class App extends Component {
         <div>
           <NavBar />
           <Route exact path="/" component={Home} />
-          <Route exact path="/home" component={Home} />
           <Route exact path="/blog" component={Blog} />
-          <Route exact path="/blog/:handle" component={BlogHandle} />
-          <Route exact path="/blog/:handle/:handle" component={ArticleHandle} />
+          <Route exact path="/blog/:handle" component={withRouter(BlogHandle)} />
+          <Route exact path="/blog/:handle/:id" component={withRouter(ArticleHandle)} />
         </div>
       </HashRouter>
     );
