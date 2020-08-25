@@ -1,15 +1,15 @@
 {
-  "main.css": "/coffee-blog/static/css/main.bafd888c.chunk.css",
-  "main.js": "/coffee-blog/static/js/main.ee4d9b56.chunk.js",
-  "main.js.map": "/coffee-blog/static/js/main.ee4d9b56.chunk.js.map",
-  "static/js/1.9b3bc872.chunk.js": "/coffee-blog/static/js/1.9b3bc872.chunk.js",
-  "static/js/1.9b3bc872.chunk.js.map": "/coffee-blog/static/js/1.9b3bc872.chunk.js.map",
+  "main.css": "/coffee-blog/static/css/main.2e86c421.chunk.css",
+  "main.js": "/coffee-blog/static/js/main.3c9f3c25.chunk.js",
+  "main.js.map": "/coffee-blog/static/js/main.3c9f3c25.chunk.js.map",
+  "static/js/1.debd6d37.chunk.js": "/coffee-blog/static/js/1.debd6d37.chunk.js",
+  "static/js/1.debd6d37.chunk.js.map": "/coffee-blog/static/js/1.debd6d37.chunk.js.map",
   "runtime~main.js": "/coffee-blog/static/js/runtime~main.edcc1237.js",
   "runtime~main.js.map": "/coffee-blog/static/js/runtime~main.edcc1237.js.map",
   "static/media/logo.svg": "/coffee-blog/static/media/logo.ee7cd8ed.svg",
-  "static/media/blog.css": "/coffee-blog/static/media/coffee.4df9e6f7.jpeg",
-  "static/css/main.bafd888c.chunk.css.map": "/coffee-blog/static/css/main.bafd888c.chunk.css.map",
+  "static/media/blog.css": "/coffee-blog/static/media/outdoors.f57a34c0.jpeg",
+  "static/css/main.2e86c421.chunk.css.map": "/coffee-blog/static/css/main.2e86c421.chunk.css.map",
   "index.html": "/coffee-blog/index.html",
-  "precache-manifest.247dc1aefd4f598485b22216c88786f0.js": "/coffee-blog/precache-manifest.247dc1aefd4f598485b22216c88786f0.js",
+  "precache-manifest.cbf588e7f37b757b6917417d00c75894.js": "/coffee-blog/precache-manifest.cbf588e7f37b757b6917417d00c75894.js",
   "service-worker.js": "/coffee-blog/service-worker.js"
 }
