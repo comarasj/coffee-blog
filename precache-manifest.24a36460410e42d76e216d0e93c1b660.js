@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "3c9f3c2518753a72430b",
+    "revision": "4769edfb801d1d680b7c",
     "url": "/coffee-blog/static/css/main.2e86c421.chunk.css"
   },
   {
-    "revision": "3c9f3c2518753a72430b",
-    "url": "/coffee-blog/static/js/main.3c9f3c25.chunk.js"
+    "revision": "4769edfb801d1d680b7c",
+    "url": "/coffee-blog/static/js/main.4769edfb.chunk.js"
   },
   {
-    "revision": "debd6d3709b9328472c5",
-    "url": "/coffee-blog/static/js/1.debd6d37.chunk.js"
+    "revision": "2f87cb433d760187f2de",
+    "url": "/coffee-blog/static/js/1.2f87cb43.chunk.js"
   },
   {
     "revision": "edcc1237d329d446797e",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/coffee-blog/static/media/outdoors.f57a34c0.jpeg"
   },
   {
-    "revision": "3fa0b4fb4970b78fe267f654baaa97c8",
+    "revision": "17c79ae6c99dd14ac71bae6bbd90ced4",
     "url": "/coffee-blog/index.html"
   }
 ];
