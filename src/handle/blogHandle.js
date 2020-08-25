@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './blogHandle.css'
 import ArticleTile from '../comps/blog/articles/articleTile';
-import CoffeeArticleList from '../static/coffeearticlelist';
-import TechArticleList from '../static/techarticlelist';
-import OutdoorArticleList from '../static/outdoorarticlelist';
+import articleList from '../static/articleList';
 
 class BlogHandle extends Component {
 
@@ -26,20 +24,20 @@ class BlogHandle extends Component {
 
         if (this.state.handle === "coffee") {
             content_header = "Coffee Blog";
-            for (var i = 0; i < CoffeeArticleList.length; i++) {
-                data.push(<ArticleTile key={i} title={CoffeeArticleList[i]["title"]} link={"/blog/coffee/" + i} date={CoffeeArticleList[i]["date"]} />)
+            for (let i = 0; i < articleList.coffeeArticles.length; i++) {
+                data.push(<ArticleTile key={i} title={articleList.coffeeArticles[i]["title"]} link={"/blog/coffee/" + i} date={articleList.coffeeArticles[i]["date"]} />)
             }
 
         } else if (this.state.handle === "tech") {
             content_header = "Technology";
-            for (var i = 0; i < TechArticleList.length; i++) {
-                data.push(<ArticleTile key={i} title={TechArticleList[i]["title"]} link={"/blog/tech/" + i} date={TechArticleList[i]["date"]} />)
+            for (let i = 0; i < articleList.techArticles.length; i++) {
+                data.push(<ArticleTile key={i} title={articleList.techArticles[i]["title"]} link={"/blog/tech/" + i} date={articleList.techArticles[i]["date"]} />)
             }
 
         } else if (this.state.handle === "outdoors") {
             content_header = "Outdoors";
-            for (var i = 0; i < OutdoorArticleList.length; i++) {
-                data.push(<ArticleTile key={i} title={OutdoorArticleList[i]["title"]} link={"/blog/outdoors/" + i} date={OutdoorArticleList[i]["date"]} />)
+            for (let i = 0; i < articleList.outdoorArticles.length; i++) {
+                data.push(<ArticleTile key={i} title={articleList.outdoorArticles[i]["title"]} link={"/blog/outdoors/" + i} date={articleList.outdoorArticles[i]["date"]} />)
             }
 
         } else {

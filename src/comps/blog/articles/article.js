@@ -1,24 +1,28 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import "./article.css"
 
 class Article extends Component {
-    constructor() {
-        super();
-        this.state = {
-            data: {
-                "title": "Sample",
-                "date": "11/30/2018",
-                "body": "sample here"
-            },
-            expanded: false
-        }
+    state = {
+        title: null,
+        body: null,
+        date: null
+    };
+
+    componentDidMount() {
+        const title = this.props.title;
+        const body = this.props.body;
+        const date = this.props.date;
+        this.setState(() => ({ title, body, date }));
+
     }
 
     render() {
-        console.log(this.props.article);
         return (
-        <div>Hello</div>
+            <div>
+                <h1>{this.state.title}</h1>
+                <h2>{this.state.date}</h2>
+                <h3>{this.state.body}</h3>
+            </div>
         )
     }
 }
