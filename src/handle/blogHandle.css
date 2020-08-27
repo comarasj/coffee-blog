@@ -6,3 +6,8 @@
     display: block;
     text-align: center;
 }
+
+.tile-group{
+    display: flex;
+    justify-content: center;
+}

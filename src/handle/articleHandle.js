@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './articleHandle.css'
+import './articleHandle.css';
 import Article from '../comps/blog/articles/article';
 import articleList from '../static/articleList';
 
@@ -40,16 +40,18 @@ class ArticleHandle extends Component {
                 article = articleList.outdoorArticles[this.state.id];
             } else {
                 //not found
-                content_header = <h1>404 Not Found</h1>
+                content_header = '404 Not Found';
                 article = null;
             }
             if( article ) {
-                article_html = <Article title={article.title} date={article.date} body={article.body} />
+                article_html = <Article title={article.title} author={article.author} date={article.date} body={article.body} image={article.image} summary={article.summary} />
             }
         }
         return (
             <div>
-                {content_header}
+                <h1 className="blogHeader">
+                    {content_header} Blog
+                </h1>
                 {article_html}
             </div>
         )

@@ -18,7 +18,7 @@ class Article extends Component {
 
     render() {
         return (
-            <div>
+            <div className="article-group">
                 <h1>{this.state.title}</h1>
                 <h2>{this.state.date}</h2>
                 <h3>{this.state.body}</h3>
